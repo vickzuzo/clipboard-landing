@@ -1,0 +1,847 @@
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+html {
+  font-size: 18px;
+  box-sizing: border-box;
+  min-width: 359px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1em;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  background: transparent;
+}
+
+header {
+  background-image: url("../images/bg-header-mobile.png");
+  background-position: top;
+  background-size: cover;
+}
+
+header .header-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 1.111rem;
+}
+
+.header-wrapper .logo {
+  margin: 5.556rem 0 1.667rem 0;
+}
+
+.header-wrapper .main-heading {
+  font-size: 1.7778em;
+  color: hsl(210, 10%, 33%);
+  margin: 1.556rem 0 0.833rem;
+}
+
+.description {
+  font-size: 0.8889em;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.625;
+  opacity: 85%;
+}
+
+.header-wrapper .description {
+  margin: 0 0.389rem 2.5rem;
+}
+
+.btns .ios-btn {
+  background-color: hsl(171, 66%, 44%);
+  margin: 0 0 1.111rem 0;
+  transition: 0.4s ease;
+}
+
+.btns .ios-btn:hover {
+  box-shadow: 1rem 1rem 1.5rem -0.5rem hsl(160, 67%, 89%);
+}
+
+.btns .mac-btn {
+  background-color: hsl(233, 100%, 69%);
+  margin: 0 0 8.056rem 0;
+}
+
+.btns .mac-btn:hover {
+  box-shadow: 1rem 1rem 1.5rem -0.5rem hsl(0, 0%, 92%);
+}
+
+.btns .ios-btn,
+.btns .mac-btn {
+  border-radius: 3.125rem;
+  padding: 0.8333rem 4.444rem;
+}
+
+.btns a {
+  text-decoration: none;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+main {
+  background: hsl(0, 0%, 100%);
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product-information h2 {
+  margin: 0 1.111rem 0;
+}
+
+.product-information .description {
+  margin: 0.889rem 1.333rem 3.889rem;
+}
+
+h2,
+h3 {
+  color: hsl(210, 10%, 33%);
+}
+
+h3 {
+  font-size: 1.3611em;
+  margin: 2.778rem 0 0.778rem;
+}
+
+.features-text .description {
+  margin: 0.278rem 1.389rem;
+}
+
+.access-description {
+  margin: 8.611rem 0 4.444rem 0;
+}
+
+.access-description h2 {
+  margin: 0 0.833rem 0;
+}
+
+.access-description .description {
+  margin: 0.833rem 1.056rem 2.778rem;
+}
+
+.desktop-computer,
+.portable-devices {
+  width: 90%;
+}
+
+.portable-devices {
+  width: 90%;
+}
+
+.workflow h2 {
+  margin: 0 0.833rem 0.556rem;
+}
+
+.workflow .description {
+  margin: 0 0.667rem 4.722rem;
+}
+
+.tools {
+  margin: 0 0.444rem 7.222rem;
+}
+
+.tools h3 {
+  margin: 2.222rem 0 0.889rem;
+}
+
+.blacklist .description,
+.plain-text .description {
+  margin: 0 0.889rem 3.333rem;
+}
+
+.snippet-preview .description {
+  margin: 0 0.444rem 3.333rem;
+}
+
+.company-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.889rem;
+  margin: 0 0 5.556rem 0;
+}
+
+.company-logos img {
+  width: 75%;
+}
+
+.download h2 {
+  margin: 2.778rem 1.389rem 0.778rem;
+}
+
+.download .description {
+  margin: 0.889rem 1.5rem 2.778rem;
+}
+
+footer {
+  background: hsl(220, 18%, 97%);
+}
+
+footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.778rem;
+}
+
+.footer-content .logo {
+  width: 20%;
+  padding: 0 0 2.222rem 0;
+}
+
+.footer-content .links-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.667rem;
+  padding: 0 0 2.778rem 0;
+}
+
+.footer-content .links-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.667rem;
+}
+
+.footer-content .links-nav a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: 0.4s ease;
+  color: #333;
+}
+
+.footer-content .links-nav a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.footer-content .social-media {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.footer-content .social-media a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+}
+
+.footer-content .social-media a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+@media only screen and (min-width: 760px) {
+  .header-wrapper .main-heading {
+    font-size: 1.7778em;
+    margin: 1.556rem 2.944rem 0.833rem;
+  }
+
+  .header-wrapper .description {
+    margin: 0 4.056rem 2.222rem;
+  }
+
+  .description {
+    font-size: 0.8889em;
+  }
+
+  .btns .ios-btn,
+  .btns .mac-btn {
+    padding: 1.111rem 5rem;
+  }
+
+  h2 {
+    font-size: 1.5556em;
+  }
+
+  h3 {
+    font-size: 1.3333em;
+  }
+
+  .product-information .description {
+    margin: 0.889rem 3.222rem 3.889rem;
+  }
+
+  .product-description .desktop-computer {
+    margin: 0 0 2.222rem 0;
+  }
+
+  .desktop-computer,
+  .portable-devices {
+    width: 85%;
+  }
+
+  .features-text h3 {
+    margin: 1.389rem 0 0.778rem;
+  }
+
+  .features-text .description {
+    margin: 0 8.222rem 2.222rem;
+  }
+
+  .access-description {
+    margin: 6.944rem 0 4.444rem;
+  }
+
+  .access-description h2 {
+    margin: 0 0 0.556rem 0;
+  }
+
+  .access-description .description {
+    margin: 0 7rem 3.056rem;
+  }
+
+  .workflow .description {
+    margin: 0 0.389rem 3.333rem;
+  }
+
+  .tools {
+    margin: 0 0 6.994rem 0;
+  }
+
+  .tools h3 {
+    margin: 1.667rem 0 0.889rem;
+  }
+
+  .blacklist .description,
+  .plain-text .description,
+  .snippet-preview .description {
+    margin: 0 8.611rem 3.333rem;
+  }
+
+  .company-logos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.778rem;
+    margin: 0 0 5.556rem 1.111rem;
+  }
+
+  .company-logos img {
+    width: 20%;
+  }
+
+  .download h2 {
+    margin: 1.111rem 0.5rem 0.778rem;
+  }
+
+  .download .description {
+    margin: 0.889rem 4.944rem 2.778rem;
+  }
+
+  .footer-content .logo {
+    width: 9%;
+  }
+
+  .footer-content .links-nav a {
+    font-size: 0.8rem;
+  }
+
+  .footer-content .social-media {
+    gap: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /*Laptop styles*/
+
+  header {
+    background-image: url("../images/bg-header-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .header-wrapper .logo {
+    width: 9%;
+    margin: 4.444rem 0.556rem 1.667rem 1.667rem;
+  }
+
+  .header-wrapper .main-heading {
+    font-size: 1.7778em;
+    margin: 0 0 0.556rem;
+  }
+
+  .header-wrapper .description {
+    font-size: 0.8889em;
+    margin: 0 12.944rem 2.222rem;
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.833rem;
+    margin: 0;
+  }
+
+  .btns a {
+    font-size: 0.7222em;
+  }
+
+  .btns .ios-btn,
+  .btns .mac-btn {
+    margin: 0;
+    padding: 0.278rem 1.222rem 0.444rem;
+  }
+
+  .content-wrapper {
+    margin: 5.556rem 1.111rem 0;
+  }
+
+  .description {
+    font-size: 0.7222em;
+  }
+
+  h2 {
+    font-size: 1.3333em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+
+  .product-information .description {
+    margin: 0.889rem 13.944rem 2.778rem;
+  }
+
+  .product-description {
+    display: flex;
+    flex-direction: row;
+    gap: 4.278rem;
+  }
+
+  .product-description .desktop-computer {
+    width: 55%;
+    height: 45%;
+    margin: 0 0 2.222rem -2.944rem;
+  }
+
+  .features-text {
+    text-align: start;
+    margin: 1.389rem 0 0.833rem;
+  }
+
+  .features-text h3 {
+    margin: 1.389rem 0 0.278rem;
+  }
+
+  .features-text .description {
+    margin: 0.278rem 7.333rem 2.111rem 0;
+  }
+
+  .access-description {
+    margin: 4.444rem 0 2.778rem;
+  }
+
+  .access-description h2 {
+    margin: 0 0 0.556rem 0;
+  }
+
+  .access-description .description {
+    margin: 0 12.556rem 3.889rem;
+  }
+
+  .access-description .portable-devices {
+    width: 65%;
+  }
+
+  .workflow h2 {
+    margin: 0 0 0.556rem 0;
+  }
+
+  .tools {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 4.722rem 5.833rem;
+  }
+
+  .tools .paper,
+  .tools .text-cursor,
+  .tools .eye-icon {
+    width: 11%;
+  }
+
+  .tools .eye-icon {
+    margin: 0.722rem 0 0 0;
+  }
+
+  .tools h3 {
+    font-size: 0.9444em;
+    margin: 1.556rem 0 0.556rem;
+  }
+
+  .snippet-preview h3 {
+    margin: 1.306rem 0 0.583rem;
+  }
+
+  .blacklist .description,
+  .plain-text .description,
+  .snippet-preview .description {
+    font-size: 0.667rem;
+    line-height: 1.775;
+  }
+
+  .blacklist .description {
+    margin: 0 0.556rem;
+  }
+
+  .plain-text .description {
+    margin: 0 0.5rem;
+  }
+
+  .snippet-preview .description {
+    margin: 0 0.333rem;
+  }
+
+  .company-logos {
+    flex-flow: row nowrap;
+    margin: 0 0 5.556rem 0;
+  }
+
+  .company-logos img {
+    width: 13%;
+  }
+
+  .download h2 {
+    margin: 0 0 1.111rem;
+  }
+
+  .download .description {
+    margin: 0 13.778rem 1.667rem;
+    line-height: 1.775;
+  }
+
+  .content-wrapper .btns {
+    margin: 0 0 6.667rem 0;
+  }
+
+  footer .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.778rem 2.778rem 0;
+  }
+
+  .footer-content .logo {
+    width: 4%;
+  }
+
+  .footer-content .links-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3.056rem;
+    align-items: flex-start;
+    padding: 0 0 1.111rem 0;
+  }
+
+  .footer-content .links-nav {
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .footer-content .social-media {
+    gap: 1.389rem;
+    padding: 0 0 2.056rem 0;
+  }
+
+  .footer-content .links-nav a {
+    font-size: 0.8rem;
+    margin: 0 0 0.889rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  /* Desktop Styles */
+
+  .header-wrapper .logo {
+    margin: 6.944rem 0 1.667rem;
+  }
+
+  .header-wrapper .main-heading {
+    font-size: 2.4444em;
+    margin: 1.556rem 0.556rem 0.556rem;
+  }
+
+  .header-wrapper .description {
+    font-size: 1.1111em;
+    margin: 0 18.833rem 2.222rem;
+  }
+
+  .btns .ios-btn,
+  .btns .mac-btn {
+    padding: 0.833rem 2.167rem;
+  }
+
+  .btns a {
+    font-size: 0.9994em;
+  }
+
+  .content-wrapper {
+    margin: 8.056rem 1.111rem 0;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.3333em;
+  }
+
+  .description {
+    font-size: 1em;
+  }
+
+  .product-information .description {
+    margin: 0.889rem 18.944rem 4.167rem;
+  }
+
+  .product-description {
+    gap: 6.111rem;
+  }
+
+  .features-text .description {
+    font-size: 0.889rem;
+    margin: 0.278rem 13.333rem 3.667rem 0;
+  }
+
+  .access-description {
+    margin: 6.111rem 0 2.778rem;
+  }
+
+  .access-description h2 {
+    margin: 0 0 1.111rem 0;
+  }
+
+  .access-description .description {
+    margin: 0 18.444rem 5.556rem;
+  }
+
+  .workflow h2 {
+    margin: 0 0 1.111rem 0;
+  }
+
+  .tools h3 {
+    margin: 2.222rem 0 0.889rem;
+  }
+
+  .blacklist h3 {
+    margin: 2.278rem 0 0.778rem;
+  }
+
+  .snippet-preview h3 {
+    margin: 2.169rem 0 0.781rem;
+  }
+
+  .blacklist .description,
+  .plain-text .description,
+  .snippet-preview .description {
+    font-size: 0.8889em;
+    margin: 0 1.389rem;
+  }
+
+  .company-logos {
+    margin: 0 0 8.889rem 0;
+    gap: 5.278rem;
+  }
+
+  .download h2 {
+    margin: 0 0 0.556rem;
+  }
+
+  .download .description {
+    margin: 0 18.778rem 2.333rem;
+  }
+
+  footer .footer-content {
+    padding: 2.778rem 4.722rem 0;
+  }
+
+  .footer-content .logo {
+    padding: 0 0 2.222rem 4.611rem;
+  }
+
+  .footer-content .links-section {
+    grid-column-gap: 4.167rem;
+  }
+
+  .footer-content .links-nav a {
+    font-size: 0.8rem;
+  }
+
+  .footer-content .social-media {
+    padding: 0 3.222rem 2.056rem 0;
+  }
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+}
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+footer .attribution {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  padding: 0.8rem 0px;
+}
+
+footer .attribution a {
+  color: #333;
+  text-decoration: none;
+  margin-left: 0.4rem;
+}
+
+footer .attribution a:hover {
+  color: hsl(215, 32%, 27%);
+}
